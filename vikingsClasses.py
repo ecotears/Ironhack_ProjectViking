@@ -32,9 +32,11 @@ class Viking(Soldier):
         else:
             return f'{self.name} has died in act of combat'
 
+
 # Saxon
 
 class Saxon(Soldier):
+
     def __init__(self, health, strength):
         super().__init__(health,strength)
 
@@ -95,22 +97,35 @@ class War():
 
 #     def __init__(self):
 #         # your code here
+#     def __init__(self):
+#         # your code here
 
+#     def addViking(self, Viking):
+#         # your code here
 #     def addViking(self, Viking):
 #         # your code here
     
 #     def addSaxon(self, Saxon):
 #         # your code here
+#     def addSaxon(self, Saxon):
+#         # your code here
     
+#     def vikingAttack(self):
+#         # your code here
 #     def vikingAttack(self):
 #         # your code here
 
 #     def saxonAttack(self):
 #         # your code here
+#     def saxonAttack(self):
+#         # your code here
 
 #     def showStatus(self):
 #         # your code here
+#     def showStatus(self):
+#         # your code here
 
+#     pass
 #     pass
 
 
